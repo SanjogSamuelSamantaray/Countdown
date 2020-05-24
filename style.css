@@ -1,0 +1,46 @@
+body,html{margin: 0px; padding: 0px;height: 100vh;font-family: 'Artifika';}
+
+body{
+    background: url(party.jpg) 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.container h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+.container h3{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 20px;
+    letter-spacing: 5px;
+}
+#count{
+    margin: 40px 0;
+}
+.countd{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 2px solid;
+    margin: 0 30px;
+    font-size: 12px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.countd span{
+    display: block;
+    font-size: 26px;
+    margin-top: 14px;
+}
